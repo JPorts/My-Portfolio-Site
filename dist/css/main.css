@@ -131,14 +131,14 @@ a {
 header {
   position: fixed;
   z-index: 2;
-  min-height: calc(100vh -60px); }
+  width: 100%; }
 
 .text-secondary {
   color: #1a87ee; }
 
 main {
   padding: 4rem;
-  min-height: calc(100vh - 60vh); }
+  min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
