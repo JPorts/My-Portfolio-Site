@@ -55,14 +55,20 @@ main{
 
     .icons{
         margin-top: 1rem;
+        
+        a{
 
-         a{
-             padding: 0.4rem;
-             &:hover {
-                 color:$secondary-color;
-                 @include easeOut();
-             }
-         }
+            color: rgba(darken($color: #333, $amount: 2),0.5);
+            
+            padding: 0.4rem;
+            &:hover {
+                color: $secondary-color;
+                @include easeOut();
+            }
+        }
+        
+
+         
     }
 
     &#home {
